@@ -1,0 +1,91 @@
+.skylrk-all {
+  --bg1: #fafafa;
+  --bg2: #f6f6f6;
+  --bor: var(--mgrgb);
+  --sdw: #f2f2f2;
+  --fnt: #363636;
+  --mgrgb: 101, 149, 181;
+  --mgrgb2: 175, 168, 108;
+  --gradbg: linear-gradient(140deg, rgba(var(--mgrgb),.15) 0%, rgba(var(--mgrgb2),.15) 100%);
+    
+    }
+.skylrk-th {
+  width: 322px;
+  height: calc(100% + 100px);
+  line-height: 100%;
+  font-family: poppins;
+  color: var(--fnt);
+  box-sizing: border-box;
+  position: relative;
+}
+.skylrk-th botbox {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px 5px 20px 10px;
+  margin-top: -20px;
+  border-top: 0;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  position: relative;
+}
+.skylrk-th botbox nametag-icon a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  color: var(--fnt) !important;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+  position: relative;
+  z-index: 2;
+}
+.skylrk-th botbox nametag-line {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-beginning;
+  align-items: left;
+}
+.skylrk-th potts {
+  display: block;
+  width: 322px;
+  padding: 33px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(var(--bor),.3);
+  background: var(--gradbg);
+  border-radius: 9px;
+}
+.skylrk-th potts chip {
+  display: block;
+  box-sizing: border-box;
+  width: 320px;
+  height: auto;
+  padding: 12px 25px;
+  background: var(--bg1);  
+  border: 1px solid rgba(var(--bor),.2);
+  border-radius: 9px;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 180%;
+  margin-bottom: -60px;
+  margin-left: 33px;
+}
+.skylrk-th potts chip p {
+  font-size: 11.5px;
+  line-height: 180%;
+}
+.skylrk-th potts chip b {
+  font-weight: 500;
+  font-size: 19px;
+  padding: 5px 12px;
+  background: rgba(var(--mgrgb),.15);
+  background: var(--gradbg);
+  background-repeat: repeat-x;
+  background-size: 50% 41%;
+  background-position: 0 71%;
+}
+    chip i {color: rgba(var(--mgrgb),1); font-weight: 600;}
