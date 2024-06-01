@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+
+.finster {
+	width: 280px;
+	margin: 40px auto;
+	--watanabe: onest;
+--mgrgb1:235,195,59; --mgrgb2:224,132,96; --mgrgb3:210,58,140;
+--partGradientTR:linear-gradient(to right, rgba(var(--mgrgb1),0.8) 0%, rgba(var(--mgrgb2),0.8) 50%, rgba(var(--mgrgb3),0.8) 100%);
+--lightGradientTR:linear-gradient(to right, rgba(var(--mgrgb1),0.1) 0%, rgba(var(--mgrgb2),0.1) 50%, rgba(var(--mgrgb3),0.1) 100%);
+--partGradientTL:linear-gradient(to left, rgba(var(--mgrgb1),0.8) 0%, rgba(var(--mgrgb2),0.8) 50%, rgba(var(--mgrgb3),0.8) 100%);
+--lightGradientTL:linear-gradient(to left, rgba(var(--mgrgb1),0.1) 0%, rgba(var(--mgrgb2),0.1) 50%, rgba(var(--mgrgb3),0.1) 100%);
+--partGradientTLT:linear-gradient(to left top, rgba(var(--mgrgb1),0.8) 0%, rgba(var(--mgrgb2),0.8) 50%, rgba(var(--mgrgb3),0.8) 100%);
+--lightGradientTLT:linear-gradient(to left top, rgba(var(--mgrgb1),0.1) 0%, rgba(var(--mgrgb2),0.1) 50%, rgba(var(--mgrgb3),0.1) 100%);
+--partGradientC:linear-gradient(to right, rgba(var(--mgrgb1),0.8) 0%, rgba(var(--mgrgb2),0.8) 15%, rgba(var(--mgrgb3),0.8) 50%, rgba(var(--mgrgb2),0.8) 85%, rgba(var(--mgrgb1),0.8) 100%);
+--icon:url(https://files.jcink.net/uploads2/bluehour/groupicons/mg8.png);
+  }
+
+.finster .chucky {
+  background: linear-gradient(to bottom right, rgba(var(--mgrgb2),.6) 0%, rgba(var(--mgrgb3),.6) 100%);
+  padding: 5px 0;
+  width: 330px;
+}
+
+.finster .chas {
+	margin-left: -20px;
+	border-radius: 133px 0px 133px;
+	padding: 35px;
+	background: #f0f0f0;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.22);
+	width: 280px;
+
+}
+
+.finster .kimiko {
+	padding: 45px 40px 40px 40px;
+font: 500 15px/22.5px var(--watanabe);
+  font-size: 15px;
+	text-align: justify;
+	color: #222;
+	font-weight: 400;
+}
+
+.kimiko b {
+font: 500 120%/150% var(--watanabe);
+  letter-spacing: 0px;
+	padding: 0 5px 2px 3px;
+	word-spacing: 4.5px;
+	background: transparent linear-gradient(to right, rgba(var(--mgrgb2),.6) 0%, rgba(var(--mgrgb3),.6) 100%) no-repeat bottom left / 100% 2px;
+  margin: 0px 12px;
+}
+
+
+.kimiko b:before {
+	content: '❝';
+	margin-right: 5px;
+	color: rgba(var(--mgrgb2),.6);
+font-weight: 100;
+  font-size: 75%}
+
+.kimiko b:after {
+	content: '❞';
+	margin-left: 5px;
+	color: rgba(var(--mgrgb3),.6);
+font-weight: 100;
+  font-size: 75%}
+
+
+.finster .kimiko i {
+	background: transparent linear-gradient(to right, rgba(var(--mgrgb2),.6) 0%, rgba(var(--mgrgb3),.6) 100%) no-repeat bottom left;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	font-size: 16px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+}
+
+.kimiko b i {
+	font-size: 100% !important;
+}
